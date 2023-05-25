@@ -3,6 +3,7 @@ import React from 'react'
 const Icons = () => {
   return (
     <div className='logos'>
+      <h2 id="languages">LANGUAGES AND TOOLS</h2>
       <div className='logos-slide'>
         <img className='logo-pic' src={require('../imgs/Bootstrap_logo.svg.png')} />
         <img className='logo-pic' src={require('../imgs/css3-logo-png-transparent.png')} />

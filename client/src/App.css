@@ -8,14 +8,37 @@
   gap: 5%;
   align-items: center;
   padding: 10% 5%;
-  background: rgb(255, 255, 255);
+  background: url('/Users/eleanaortega/Desktop/Portfolio/client/src/imgs/photo-1530569673472-307dc017a82d copy.png') center/cover no-repeat; 
+  color: black;
+  width: 100%; 
+  height: 100vh; 
+}
+
+.custom-btn {
+  outline: solid 2px black;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.custom-btn a{
+  text-decoration: none;
+  color: white;
+}
+
+.custom-btn:hover {
+  outline: none;
+  color: white;
+  background-color: black; 
+}
+
+.navbar {
+  background-color: #60717e;
 }
 
 .profile-picture {
   height: 400px;
   width: 1100px;
   border-radius: 50%;
-  box-shadow: 10px 10px 15px #3b3636;
+  box-shadow: 10px 10px 15px #d3d1d1c2;
 }
 
 .right-about {
@@ -35,7 +58,10 @@
   width: 100%;
   overflow: hidden;
   width: 100%;
+  background-color: #ffffffb3 ;
   white-space: nowrap;
+  position: relative;
+  padding: 3%;
 }
 
 .logos-slide{
@@ -45,7 +71,45 @@
 
 
 .logo-pic{
-  gap: 50px;
+  padding: 1%;
   height: 200px;
   width: 200px;
+}
+
+.logos:hover .logos-slide{
+  animation: 35s slide infinite linear;
+}
+
+.logos:before,
+.logos:after{
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+  
+}
+
+.logos:before{
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255,0), #e1f0f98e);
+}
+
+.logos:after{ 
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255,0), #e1f0f98e);
+}
+
+#languages {
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.aboutMe-icons img{ 
+  width: 55px;
+  height: 55px;
+  margin: 5px;
 }
