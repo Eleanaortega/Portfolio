@@ -22,3 +22,30 @@
   flex-grow: 2;
 }
 
+@keyframes slide {
+  from{
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos{
+  width: 100%;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.logos-slide{
+  display: inline-block;
+  animation: 5s slide infinite linear;
+}
+
+
+.logo-pic{
+  gap: 50px;
+  height: 200px;
+  width: 200px;
+}
