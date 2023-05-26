@@ -11,10 +11,18 @@
   background: url('/Users/eleanaortega/Desktop/Portfolio/client/src/imgs/photo-1530569673472-307dc017a82d copy.png') center/cover no-repeat; 
   color: black;
   width: 100%; 
-  height: 100vh; 
+  height: 95vh; 
+}
+
+#name {
+  font-family:'Bebas neue';
+  font-size: 85px
 }
 
 .aboutme-description{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
   padding-top: 20px;
 }
 
@@ -36,6 +44,11 @@
 
 .navbar {
   background-color: #60717e;
+  box-shadow: black;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
 }
 
 .profile-picture {
