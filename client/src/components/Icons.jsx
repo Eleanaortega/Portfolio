@@ -4,6 +4,7 @@ const Icons = () => {
   return (
     <div className='logos'>
       <h2 id="languages">LANGUAGES AND TOOLS</h2>
+      {/* <p id="languages"> React | Python | MongoDB | MySQL | Nodejs | Bootstrap</p> */}
       <div className='logos-slide'>
         <img className='logo-pic' src={require('../imgs/Bootstrap_logo.svg.png')} />
         <img className='logo-pic' src={require('../imgs/css3-logo-png-transparent.png')} />
